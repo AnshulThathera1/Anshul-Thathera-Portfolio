@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>AT Portfolio</title>
+    <script src="https://kit.fontawesome.com/ec0488db49.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="AT.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fa-solid fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="img">
+                <img src="dev.png">
+            </div>
+            <div class="text">
+                <h1>Hi,I'm <span>Anshul Thathera</span></h1>
+                <h3>I am a <span class="typing">Web Developer</span></h3>
+            </div>
+        </div>
+    </div>
+    <!-------------About--------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="acol-1">
+                    <img src="Anshul.jpg">
+                </div>
+                <div class="acol-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="breif">Web Designer and Developer from Udaipur,Rajasthan.I create custom websites for porsonal or 
+                        to help bussiness do better online.</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web Interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018</span><br>10th CBSE</li>
+                            <li><span>2020</span><br>12th CBSE</li>
+                            <li><span>2020-Current</span><br>B.Tech(CS) from Geetanjali Institute Of Technical Studies,Udaipur</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------Services--------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Web Design</h2>
+                    <p> plan, create and code internet sites and web pages,
+                        many of which combine text with sounds,
+                        pictures, graphics and video clips</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <h2>Web Developer</h2>
+                    <p> Writing well designed, testable, efficient code by using best software development practices.
+                        Creating website layout/user interfaces by using standard HTML/CSS practices.
+                        Integrating data from various back-end services and databases.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <!-- <table>
+                    <tr>
+                      <th id="col1">Web Design</th>
+                      <th>Web Developer</th>
+                    </tr>
+                    <tr>
+                      
+                      <td id="col1"><p> plan, create and code internet sites and web pages,
+                        many of which combine text,<br> with sounds,
+                        pictures, graphics and video clips</p></td>
+                      <td><p> Writing well designed, testable, efficient code by using best software development practices.<br>
+                        Creating website layout/user interfaces by using standard HTML/CSS practices.
+                        Integrating <br>data from various back-end services and databases.</p></td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Learn More</a></td>
+                      <td><a href="#">Learn More</a></td>
+                    </tr>
+                  </table> -->
+
+
+
+
+        </div>
+        <!-------------Portfolio--------------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img id="img1" src="work1.png">
+                        <div class="layer">
+                            <h3>E-Commerce web-design</h3>
+                            <p>This a ecommerce website design that allows people to buy and sell physical goods, services, and digital 
+                                products over the internet rather than at a brick-and-mortar location</p>
+                            <a href="https://anshulthathera1.github.io/Ak/index.html" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img id="img1" src="work2.png">
+                        <div class="layer">
+                            <h3>E-Commerce web-design</h3>
+                            <p>This a YouTube video downloader that allows users to download 
+                                any kind of video and save that video any where they want.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+    </div>
+    <!-------------Contact---------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> anshulkasera35@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 6367158122</p>
+                    <div class="social-icons">
+                        <a href="https://instagram.com/anshulkasera.01?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/anshul-thathera-90305022a"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Anshul Thathera CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Enter your Name" required>
+                        <input type="text" name="Email" placeholder="Enter your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Query/Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © Anshul Thathera</p>
+        </div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" 
+    referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tab){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tab).classList.add("active-tab");
+    }
+
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby2vGwZ47-HZ0MDgSUHLdqLJsFo-kaFA6nnxxxLJ94A0TVJJs5EevMVUMPja0K9h6Io/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</html>
