@@ -18,7 +18,7 @@ body{
 
 .logo{
     width: auto;
-    height: 62px;
+    height: 40px;
 }
 
 .container{
@@ -371,25 +371,26 @@ form .btn2{
 nav .fa-solid{
     display: none;
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width:800px){
     .img{
         display: none;
+        visibility: hidden;
     }
     .text{
         display: inline;
-    }
-/*     #header{
-        background-image: url(dev2.png);
-    } */
-    .header-text{
-        margin-top: 100%;
-        font-size: 16px;
     }
     .text h1 span{
         color: #ff0000;
     }
     .text h3 span{
         color: #ff0000;
+    }
+    /* #header{
+        background-image: url(dev2.png);
+    } */
+    .header-text{
+        margin-top: 100%;
+        font-size: 16px;
     }
     .header-text h1{
         font-size: 30px;
